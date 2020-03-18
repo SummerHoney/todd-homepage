@@ -19,8 +19,9 @@
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-body {
+html, body {
 	margin: 0;
+    height: 100%;
 }
 
 h1, h2, h3, a {
@@ -70,6 +71,7 @@ header {
 	background-color: var(--almostWhite);
 	text-align: center;
 	justify-content: center;
+    height: 100%;
 }
 
 .header_wrapper {
