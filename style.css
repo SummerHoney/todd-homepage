@@ -248,8 +248,19 @@ input:checked~.expectations__tab-content {
     color: var(--white);
 }
 
-.works__item-site {
+.app {
     color: var(--blueViolet);
+}
+
+.app:hover {
+    color: var(--white);
+}
+
+.app:focus {
+    opacity: .7;
+}
+
+.works__item-site {
     margin-bottom: 20px;
 }
 
