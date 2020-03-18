@@ -114,6 +114,14 @@ header {
     outline: none;
 }
 
+.button:hover {
+    background-color: var(--black);
+}
+
+.button:focus {
+    opacity: .7;
+}
+
 .header__button {
     width: 280px;
 }
@@ -343,6 +351,14 @@ input:checked~.expectations__tab-content {
     margin-bottom: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.fa {
+    display: block;
+}
+
 .buttons_row {
     display: flex;
     flex-direction: row;
@@ -358,11 +374,7 @@ input:checked~.expectations__tab-content {
     border-radius: 50%;
     margin-right: 16px;
     color: var(--white);
-}
-
-.buttons_row__button_telegram {
-    font-size: 48px;
-    color: var(--telegram);
+    overflow: hidden;
 }
 
 .centered {
@@ -374,13 +386,26 @@ input:checked~.expectations__tab-content {
     background-color: var(--facebook);
 }
 
+.facebook:hover {
+    font-size: 40px;
+}
+
 .vk {
-    font-size: 28px;
+    font-size: 33px;
     background-color: var(--vk);
+}
+
+.vk:hover {
+    font-size: 44px;
 }
 
 .telegram {
     background-color: var(--telegram);
+    font-size: 36px;
+}
+
+.telegram:hover {
+    font-size: 48px;
 }
 
 .footer__description {

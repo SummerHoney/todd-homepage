@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Todd Chavez</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -66,7 +69,7 @@
                 <div class="works__list">
                     <div class="works__item">
                         <h3 class="works__item-title">Мобильное приложение</h3>
-                        <p class="works__item-site paragraph_mono">App</p>
+                        <a href="https://www.apple.com/ios/app-store/"><p class="works__item-site paragraph_mono">App</p></a>
                         <div class="slider">
                             <input class="slider__input" type="radio" id="slider-btn-1" name="toggle" checked>
                             <input class="slider__input" type="radio" id="slider-btn-2" name="toggle">
@@ -80,7 +83,7 @@
                                 <div class="slider__slides">
                                     <img class="slider__img" src="https://images5.alphacoders.com/951/thumb-1920-951989.jpg">
                                     <img class="slider__img" src="https://pbs.twimg.com/media/D6uW4dvWwAEDt4M.jpg">
-                                    <img class="slider__img" src="http://127.0.0.1:56020/Todd's%20project.png">                      
+                                    <img class="slider__img" src="http://127.0.0.1:56020/Todd's%20project.png">       
                                 </div>
                             </div>
                         </div>
@@ -100,18 +103,24 @@
             <div class="content_wrapper">
                 <h2 class="footer__title">Контактная информация</h2>
                 <div class="buttons_row">
-                    <div class="buttons_row__button facebook">
-                        <i class="fa fa-facebook centered"></i>
-                    </div>
-                    <div class="buttons_row__button vk">
-                        <i class="fa fa-vk centered"></i>
-                    </div>
-                    <div class="buttons_row__button_telegram">
-                        <i class="fa fa-telegram"></i>
-                    </div>
-                </div>
-
-                <p class="footer__description paragraph_mono">Я открыт для новых проектов.
+                    <a href="https://www.facebook.com/">
+                        <div class="buttons_row__button facebook">
+                            <i class="fab fa-facebook-f centered"></i>
+                        </div>
+                    </a>
+                    <a href="https://vk.com/">
+                        <div class="buttons_row__button vk">
+                            <i class="fab fa-vk centered"></i>
+                        </div>
+                    </a>
+                    <a href="https://web.telegram.org/">
+                        <div class="buttons_row__button telegram">
+                            <i class="fab fa-telegram-plane centered"></i>
+                        </div>
+                    </a>
+            </div>
+                <p class="footer__description paragraph_mono">
+                    Я открыт для новых проектов.
                     Вы можете прислать мне для оценки примерное техническое задание или описание проекта своими словами.</p>
                 <form action="#" method="post" id="form1">
                     <div class="footer__element_line">
