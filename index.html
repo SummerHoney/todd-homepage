@@ -16,7 +16,7 @@
 <body>
     <header class="header">
         <div class="header_wrapper">
-            <img class="header__avatar" src="header__avatar.png" alt="Todd Chavez">
+            <img class="header__avatar" src="header__avatar.png" alt="Todd">
             <h1 class="header__title">Todd Chavez</h1>
             <p class="header__description paragraph_mono">Beginner frontend-developer, Moscow</p>
             <button type="submit" class="header__button button">Связаться</button>
@@ -64,10 +64,13 @@
             <div class="content_wrapper">
                 <h2 class="works__title">Мои работы</h2>
                 <p class="works__description paragraph_mono">Избранное</p>
+
                 <div class="works__list">
                     <div class="works__item">
                         <h3 class="works__item-title">Мобильное приложение</h3>
-                        <a class="app" href="https://www.apple.com/ios/app-store/"><p class="works__item-site paragraph_mono">App</p></a>
+                        <a class="app" href="https://www.apple.com/ios/app-store/">
+                            <p class="works__item-site paragraph_mono">Mobile app</p>
+                        </a>
                         <div class="slider">
                             <input class="slider__input" type="radio" id="slider-btn-1" name="toggle" checked>
                             <input class="slider__input" type="radio" id="slider-btn-2" name="toggle">
@@ -79,17 +82,80 @@
                             </div>
                             <div class="slider__inner">
                                 <div class="slider__slides">
-                                    <img class="slider__img" src="https://images5.alphacoders.com/951/thumb-1920-951989.jpg">
-                                    <img class="slider__img" src="https://pbs.twimg.com/media/D6uW4dvWwAEDt4M.jpg">
-                                    <img class="slider__img" src="http://127.0.0.1:56020/Todd's%20project.png">       
+                                    <img class="slider__img" src="img/mobile1.jpg" alt="Mobile app">
+                                    <img class="slider__img" src="img/mobile2.png" alt="Mobile app">
+                                    <img class="slider__img" src="img/mobile3.jpg" alt="Mobile app">
                                 </div>
                             </div>
                         </div>
-                                <div class="works__item-slider">
-                                <p class="works__item-description paragraph_small">
-                                 Мобильное приложение для знакомств.
-                                </p>
-                              </div>
+                        <div class="works__item-slider">
+                            <p class="works__item-description paragraph_small">
+                                Мобильное приложение для знакомств.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__list">
+                    <div class="works__item">
+                        <h3 class="works__item-title">Магазин товаров для праздников</h3>
+                        <a class="app" href="https://bojackhorseman.fandom.com/wiki/Halloween_in_January">
+                            <p class="works__item-site paragraph_mono">Halloween store</p>
+                        </a>
+                        <div class="slider">
+                            <input class="slider__input" type="radio" id="slider-btn-4" name="toggle2" checked>
+                            <input class="slider__input" type="radio" id="slider-btn-5" name="toggle2">
+                            <input class="slider__input" type="radio" id="slider-btn-6" name="toggle2">
+                            <div class="slider__controls">
+                                <label class="slider__label" for="slider-btn-4"></label>
+                                <label class="slider__label" for="slider-btn-5"></label>
+                                <label class="slider__label" for="slider-btn-6"></label>
+                            </div>
+                            <div class="slider__inner">
+                                <div class="slider__slides">
+                                    <img class="slider__img" src="img/store1.jpg" alt="Halloween store">
+                                    <img class="slider__img" src="img/store2.png" alt="Halloween store">
+                                    <img class="slider__img" src="img/store3.jpg" alt="Halloween store">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works__item-slider">
+                            <p class="works__item-description paragraph_small">
+                                Магазин товаров для празднования
+                                Хэллоуина.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__list">
+                    <div class="works__item">
+                        <h3 class="works__item-title">Служба такси</h3>
+                        <a class="app" href="https://gettransfer.com/ru?from_name=Moscow+Russia&utm_source=GoogleAdwords&utm_medium=cpc&utm_campaign=g_russia_cities_en_broad_geo_rf&utm_term=taxi%20moscow&utm_content=%7Bsource_type%7D:%7Bsource%7D:%7Bposition_type%7D:%7Bposition%7D&gclid=EAIaIQobChMIzYORwtuo6AIVD6aaCh1yGQIyEAAYASAAEgJ4tfD_BwE">
+                            <p class="works__item-site paragraph_mono">Taxi</p>
+                        </a>
+                        <div class="slider">
+                            <input class="slider__input" type="radio" id="slider-btn-7" name="toggle3" checked>
+                            <input class="slider__input" type="radio" id="slider-btn-8" name="toggle3">
+                            <input class="slider__input" type="radio" id="slider-btn-9" name="toggle3">
+                            <div class="slider__controls">
+                                <label class="slider__label" for="slider-btn-7"></label>
+                                <label class="slider__label" for="slider-btn-8"></label>
+                                <label class="slider__label" for="slider-btn-9"></label>
+                            </div>
+                            <div class="slider__inner">
+                                <div class="slider__slides">
+                                    <img class="slider__img" src="img/taxi1.png" alt="Taxi">
+                                    <img class="slider__img" src="img/taxi2.jpg" alt="Taxi">
+                                    <img class="slider__img" src="img/taxi3.jpg" alt="Taxi">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works__item-slider">
+                            <p class="works__item-description paragraph_small">
+                                Феминизированная служба такси.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,7 +182,7 @@
                             <i class="fab fa-telegram-plane centered"></i>
                         </div>
                     </a>
-            </div>
+                </div>
                 <p class="footer__description paragraph_mono">
                     Я открыт для новых проектов.
                     Вы можете прислать мне для оценки примерное техническое задание или описание проекта своими словами.</p>
@@ -127,11 +193,12 @@
                     </div>
                     <textarea class="footer__message" name="footer__message" placeholder="Текст сообщения"></textarea>
                     <input class="footer__file" type="file" id="footer__file">
-                  <label class="footer__file_label" for="footer__file">Прикрепить ТЗ</label>
+                    <label class="footer__file_label" for="footer__file">Прикрепить ТЗ</label>
                 </form>
                 <button class="footer__button button" type="submit" form="form1">Отправить</button>
             </div>
         </div>
     </footer>
- </body>
+</body>
+
 </html>
