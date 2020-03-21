@@ -500,14 +500,7 @@ a {
     overflow: hidden;
 }
 
-.footer__file_label {
-    padding-top: 6px;
-    padding-bottom: 10px;
-    width: 100%;
-    height: 36px;
-}
-
-.footer__file+label {
+.footer__file+label:before {
     display: block;
     border: solid 1px rgba(31, 64, 111, 0.2);
     border-radius: 4px;
@@ -517,6 +510,14 @@ a {
     color: var(--blue);
     margin-bottom: 16px;
     cursor: pointer;
+    content: "Прикрепить ТЗ";
+    padding-top: 6px;
+    width: 100%;
+    height: 26px;
+}
+
+.footer__file:valid + label:before {
+    content: "Выберите другой файл";
 }
 
 

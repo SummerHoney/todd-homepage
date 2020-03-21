@@ -188,12 +188,12 @@
                     Вы можете прислать мне для оценки примерное техническое задание или описание проекта своими словами.</p>
                 <form action="#" method="post" id="form1">
                     <div class="footer__element_line">
-                        <input class="footer__element" type="text" placeholder="Как вас зовут?" name="footer__name">
-                        <input class="footer__element" type="email" placeholder="Почтовый ящик" name="footer__email">
+                        <input class="footer__element" type="text" placeholder="Как вас зовут?" name="footer__name" required>
+                        <input class="footer__element" type="email" placeholder="Почтовый ящик" name="footer__email" required>
                     </div>
                     <textarea class="footer__message" name="footer__message" placeholder="Текст сообщения"></textarea>
-                    <input class="footer__file" type="file" id="footer__file">
-                    <label class="footer__file_label" for="footer__file">Прикрепить ТЗ</label>
+                    <input class="footer__file" type="file" id="footer__file" required>
+                    <label class="footer__file_label" for="footer__file"></label>
                 </form>
                 <button class="footer__button button" type="submit" form="form1">Отправить</button>
             </div>
