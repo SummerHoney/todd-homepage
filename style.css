@@ -249,7 +249,7 @@ input:checked~.expectations__tab-content {
 }
 
 .works__item-slider {
-  margin-bottom: 80px;
+  margin-bottom: 52px;
   margin-top: 40px;
 }
 
@@ -308,6 +308,7 @@ input:checked~.expectations__tab-content {
     bottom: -40px;
     z-index: 100;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .slider__label {
