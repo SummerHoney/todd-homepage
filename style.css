@@ -250,6 +250,14 @@ input:checked~.expectations__tab-content {
 
 .works__item-slider {
   margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+
+.works__item-description {
+    order: 2;
+    text-align: center;
+    color: var(--white);
 }
 
 .app {
@@ -299,7 +307,7 @@ input:checked~.expectations__tab-content {
     left: 0;
     bottom: -40px;
     z-index: 100;
-    text-align: right;
+    text-align: center;
 }
 
 .slider__label {
@@ -375,13 +383,6 @@ input:checked~.expectations__tab-content {
 }
 #slider-btn-9:checked~.slider__inner .slider__slides {
     transform: translate(-50%);
-}
-
-.works__item-description {
-    order: 2;
-    width: 74%;
-    text-align: left;
-    color: var(--white);
 }
 
 .footer {
